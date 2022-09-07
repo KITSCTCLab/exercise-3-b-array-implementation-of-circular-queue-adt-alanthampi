@@ -5,9 +5,7 @@ class MyCircularQueue:
         self.rear = -1
         self.front = -1
 
-    def enqueue(self, value: int) -> bool:
-        if self.is_full():
-            return False
+    def enqueue(self, value: int) -> False
         if self.front == -1:
             self.front = 0
             self.rear = 0
